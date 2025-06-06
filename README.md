@@ -1,4 +1,4 @@
-# Actividad 1 - BD2 Actvidad 3
+﻿# Actividad 1 - BD2 Actvidad 3
 
 Control de películas con JPA/Hibernate con MySQL
 
