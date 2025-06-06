@@ -12,22 +12,35 @@ Control de películas con JPA/Hibernate con MySQL
 ## ESTRUCTURA DEL PROYECTO
 
 ```
-peliculas-jpa/
-├── pom.xml
-├── src/main/java/
-│   ├── com/ejemplo/entidades/
-│   │   └── Pelicula.java
-│   ├── com/ejemplo/util/
-│   │   ├── JPAUtil.java
-│   │   └── Utils.java
-│   └── com/ejemplo/programas/
-│       ├── ListarPeliculas.java
-│       ├── NuevaPeliculaConRollback.java
-│       └── ListarPeliculasReadUncommitted.java
-├── src/main/resources/
-│   └── META-INF/
-│       └── persistence.xml
-└── schema.sql
+PeliculasJPA
+│   LICENSE
+│   pom.xml
+│   README.md
+│   schema.sql
+│   
+└───src
+    └───main
+        ├───java
+        │   └───com
+        │       └───ejemplo
+        │           ├───entidades
+        │           │       Pelicula.java
+        │           │       
+        │           ├───peliculasjpa
+        │           │       PeliculasJPA.java
+        │           │       
+        │           ├───programas
+        │           │       ListarPeliculas.java
+        │           │       ListarPeliculasReadUncommitted.java
+        │           │       NuevaPeliculaConRollback.java
+        │           │       
+        │           └───util
+        │                   JPAUtil.java
+        │                   Utils.java
+        │                   
+        └───resources
+            └───META-INF
+                    persistence.xml
 ```
 
 ## INSTALACIÓN
